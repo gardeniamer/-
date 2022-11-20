@@ -1,0 +1,706 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.first {
+    margin:0 auto 30px;
+    position: relative;
+    width: 1925px;
+    height: 814px;
+    background-image: url(images/pc_06.jpg);
+}
+
+.first01 {
+    width: 1920px;
+    height: 814px;
+    background: rgba(2, 1, 2, 0.6 );
+}
+
+.first02 {
+    position: absolute;
+    left: 50%;
+    margin-left: -116.5px;
+    width: 233px;
+    height: 97px;
+    background-color: #e8024d;
+    background-image: url(images/img_lamylogo.png);
+    background-repeat: no-repeat;
+    background-position: 15px 18px;
+}
+
+.first03 { 
+    position: absolute;
+    left: 452px;
+    top: 332px;
+    width: 993px;
+    height: 214px;
+    background: url(images/The\ best\ pen\ is\ \ just\ LAMY.png);
+}
+
+.top li a:hover {
+    color: greenyellow;
+}
+
+.top li a {
+    float:left;
+    font-size:22px;
+    color:white;
+    text-decoration: none;
+}
+
+.top .l1 {
+    margin-left:460px;
+}
+
+.top .l2 { 
+    margin-left:74px;
+}
+
+
+
+.top .r1 {
+    float:right;
+    margin-right: 690px;
+}
+
+.top .r2 {
+    float: right;
+    margin-right: -309px;
+}
+
+.second{
+    position: relative;    
+    width: 1925px;
+    height: 480px;
+    background-color:#eae7e8;
+    margin:auto;
+}
+
+.second .second01{
+    position: absolute;
+    top:40px;
+    left: 411px;
+    width: 422px;
+    height: 505px;
+    background: url(images/图层\ 5.png);
+}
+
+.second .second02 {
+    float:left;
+    margin-top: 40px;
+    margin-left: 832px;
+    width: 730px;
+    height: 511px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px  2px black ;
+}
+.second02 .zp {
+    margin-left:75px;
+    margin-top:82px;
+    width: 437px;
+    height: 48px;
+    font-size: 50px;
+    font-family: Britannic Bold;
+}
+
+.second02 .zp:hover {
+    color:turquoise;
+}
+
+
+.second02 p {
+    font-family: 宋体;
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+.second02 .p1{
+    margin-top: 100px;
+}
+
+.second02 .p2 {
+    margin-top: 54px;
+}
+
+.second .in {
+    position: absolute;
+    top:335px;
+    left: 117px;
+    width: 365px;
+    height: 235px;
+    background-color: #dc3b70;
+    background: rgba(236,74,127, 0.85);
+}
+
+.second .in .inin {
+            width: 58px;
+            height: 58px;
+            position: absolute;
+            left:153px; 
+            top:74px;
+            background: url(images/播放.png);
+            background-repeat: no-repeat;
+}
+
+.third {
+    position: relative;
+    margin:auto;
+    height: 802px;
+    width: 1925px;  
+}
+
+.third .capital {
+    margin-top: 262px;
+    margin-left: 808px;
+    font-size: 55px;
+    font-family: 微软雅黑;
+}
+
+.third .capital:hover {
+    color:yellowgreen;
+}
+
+.third .r {
+    margin-top: 150px;
+    height:285px;
+    width: 1925px;
+    overflow: hidden;
+    
+}
+
+.third .r .r1 {
+    float: left;
+    width: 357px;
+    height: 285px;
+    margin-left: 382px;
+    margin-right: 70px;
+}
+
+.third .r .r1 .w1 {
+    text-align: center;
+    text-indent: 2em;
+    font-size: 19px;
+    font-family: 微软雅黑;
+}
+
+.third .r .r1 .cp1 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size:25px;
+    font-family: 微软雅黑;
+}
+
+.third .r .r2 {
+    float: left;
+    width: 357px;
+    height: 285px;
+    margin-right: 70px;
+}
+
+.third .r .r2 .cp2 {
+        text-align: center;
+        margin-bottom: 35px;
+        font-size: 25px;
+        font-family: 微软雅黑;
+}
+
+.third .r .r2 .w2 {
+    text-align: center;
+    text-indent: 2em;
+    font-size: 19px;
+    font-family: 微软雅黑;
+}
+
+.third .r .r3 {
+        float: left;
+        width: 357px;
+        height: 285px;
+}
+
+.third .r .r3 .cp3 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 25px;
+    font-family: 微软雅黑;
+}
+
+.third .r .r3 .w3 {
+    text-align: center;
+    text-indent: 2em;
+    font-size: 19px;
+    font-family: 微软雅黑;
+}
+
+.final {
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-120.5px;
+    margin-bottom: 80px;
+    width: 241px;
+    height: 65px;
+    background-color: #2b2b2b;
+}
+
+.final .fw {
+    font-size: 25px;
+    line-height: 65px;
+    margin-left: 60px;
+    color: white;
+}
+
+.final .fww:hover {
+    margin-left: 5px;
+}
+
+.final .fww {
+    float:left;
+    width: 34px;
+    height: 29px;
+    background: url(images/arrow-double-right.png);
+    position: absolute;
+    left:193px;
+    top:18px;
+    margin-top: 3px;
+    background-repeat: no-repeat;
+}
+
+.fourth {
+    margin: auto;
+    height: 391px;
+    width: 1925px;
+    background: rgba(218, 216, 217, 0.8);
+}
+
+.fourth .fc {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 391px;
+}
+
+.fourth .fc .fc1 {
+    width: 1200px;
+    height: 224px;
+    background: url(images/p24964153.png);
+    background-repeat: no-repeat;
+}
+
+.fourth .fc .fc2 {
+    width: 1200px;
+    height: 168px;
+    background: url(images/p24964204.png);
+    background-repeat: no-repeat;
+}
+
+.fourth .fc .sp {
+    position: absolute;
+    left:41px;
+    top: 199px;
+    width: 90px;
+    height: 27px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.fifth {
+    position: relative;
+    margin:auto;
+    height: 1359px;
+    width: 1925px;
+}
+
+.fifth01 {
+    height: 348px;
+    width: 1925px;
+    background-color:gray;
+}
+
+.fifth01 .fifth011 {
+    margin: auto;
+    width: 1200px;
+    height: 269px;
+    text-align: center;
+    padding-top:79px;
+    font-size: 19px;
+    font-family: Segoe Print;
+}
+
+#fifth0111 {
+    font-size: 25px;
+    font-family: Britannic Bold;
+}
+
+.fifth .fifth02 {
+    box-shadow: 1px 1px 10px 2px black;
+    position: absolute;
+    top:167px;
+    left:545px;
+    margin: auto;
+    width: 818px;
+    height: 279px;
+    background-color: #fff;
+}
+
+.fifth02 .fifth022 {
+    width: 74px;
+    height: 74px;       
+    background-color: #9a9a9a;
+    margin-top: 40px;
+    margin-left:380px;
+    border-radius: 50%;
+    background: url(images/IMG_20180210_144432.png);
+    background-repeat: no-repeat;
+}
+
+.fifth02 .fifth02w {
+    font-size: 17px;
+    width: 530px;
+    height: 80px;
+    text-align: center;
+    margin-left: 147px;
+    margin-top: 30px;
+}
+
+.fifth02 .fifth022b {
+    width: 200px;
+    height: 50px;
+    margin-left: 326px;
+}
+
+.fifth02 .fifth022b li {
+    float:left;
+    width: 45px;
+    height: 11px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #e6e4e4;
+}
+
+#is {
+    background-color: gray;
+}
+
+.fifth03 {
+    width: 888px;
+    height: 1011px;
+    margin: auto;
+    border-top: 0.1px solid black;
+}
+
+.fifth03 .fifth031 {
+    font-size: 18px;
+    font-family: Segoe Script;
+    text-align: center;
+    margin-top: 176px;
+}
+
+#fifth0311 {
+    font-size: 25px;
+    font-family: Britannic Bold;
+}
+
+.fifth04 {
+    position: relative;
+    width: 888px;
+    height: 555px;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth04 .fifth041 {
+    width: 254px;
+    height: 555px;
+    margin-bottom: 10px;
+}
+
+.fifth04 .fifth042 {
+    width: 66px;
+    height: 555px;
+}
+
+.fifth04 .fifth043 {
+    width: 254px;
+    height: 555px;
+}
+
+.fifth04 .fifth044 {
+    width: 66px;
+    height: 555px;
+}
+
+.fifth04 .fifth045 {
+    width: 250px;
+    height: 555px;
+}
+.fifth04 .fifth041 .fifth0411 {
+    width: 254px;
+    height: 231px;
+    margin-bottom: 22px;
+    background: url(images/1.png);
+    background-repeat: no-repeat;
+}
+
+.fifth04 .fifth041 .fifth0412 {
+    width: 254px;
+    height: 304px;
+    background: url(images/2.png);
+    background-repeat: no-repeat;
+}
+
+.fifth04 .fifth043 .fifth0431 {
+    width: 254px;
+    height: 376px;
+    background: url(images/3.png);
+    background-repeat: no-repeat;
+    margin-bottom: 14px;
+}
+
+.fifth04 .fifth043 .fifth0432 {
+    width: 254px;
+    height: 167px;
+    background: url(images/4.png);
+    background-repeat: no-repeat;
+}
+
+.fifth04 .fifth045 .fifth0451 {
+    width: 250px;
+    height: 231px;
+    background: url(images/5.png);
+    background-repeat: no-repeat;
+    margin-bottom: 22px;
+}
+
+.fifth04 .fifth045 .fifth0452 {
+    width: 250px;
+    height: 304px;
+    background: url(images/6.png);
+    background-repeat: no-repeat;
+}
+
+.fifth03 .fifth05 {
+    position: relative;
+    margin: auto;
+    width: 221px;
+    height: 66px;
+    background-color: #4a3e42;
+    margin-top: 79px;
+}
+
+.fifth03 .fifth05 .fifth051 {
+        font-size: 25px;
+        font-family: 宋体;
+        text-align: center;
+        color: white;
+        line-height: 66px;
+        margin-right: 15px;
+}
+
+.fifth03 .fifth05 .fifth052 {     
+        width: 34px;
+        height: 29px;
+        background: url(images/arrow-double-right.png);
+        position: absolute;
+        left: 180px;
+        top: 22px;
+        background-repeat: no-repeat;
+}
+
+.fifth05 .fifth052:hover {
+    margin-left:3px;
+}
+
+.sixth {
+    margin: auto;
+    height: 625px;
+    width: 1925px;
+}
+
+.sixth .sixth01 {
+    position: relative;
+    height: 341px;
+    background: url(images/图层\ 16.png);
+}
+
+.sixth .sixth01 .sixth011 {
+    position: absolute;
+    left: 545px;
+    top: 90px;
+    width: 876px;
+    height: 434px;
+    background-color: white;
+    box-shadow: 1px 1px 30px 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth011 .sixth0111 {
+    width: 420px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth011 .sixth0112 {
+    width: 456px;
+    height: 434px;
+}
+
+.sixth011 .sixth0111 .sixth01111 {
+    width: 378px;
+    height: 122px;
+    margin-bottom: 15px;
+    background: url(images/10.png);
+    background-repeat:no-repeat;
+}
+
+.sixth011 .sixth0111 .sixth01112 {
+    width: 378px;
+    height: 122px;
+    margin-bottom: 15px;
+    background: url(images/11.png);
+    background-repeat: no-repeat;
+}
+
+.sixth011 .sixth0111 .sixth01113 {
+    width: 378px;
+    height: 122px;
+    background: url(images/12.png);
+    background-repeat: no-repeat;
+}
+
+.sixth011 .sixth0112 .sixth01121 {
+    width: 456px;
+    height: 122px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 19px;
+    font-family: Britannic Bold;
+}
+
+.sixth011 .sixth0112 .sixth01122 {
+    width: 456px;
+    height: 122px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 19px;
+    font-family: Britannic Bold;
+}
+
+.sixth011 .sixth0112 .sixth01123 {
+    width: 456px;
+    height: 122px;
+    text-align: center;
+    font-size: 19px;
+    font-family: Britannic Bold;
+}
+
+.sixth02 {
+    position: relative;
+    height: 312px;
+    width: 1925px;  
+}
+
+.sixth02 .sixth021 {
+    position: absolute;
+    left:867px;
+    top: 225px;
+    width: 202px;
+    height: 60px;
+    background-color: #e8024d;
+}
+
+.sixth021 .w10 {
+    position: relative;
+    font-size: 25px;
+    font-family: 宋体;  
+    text-align: center;
+    color:white;
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+.sixth02 .sixth022 {
+        width: 34px;
+        height: 29px;
+        background: url(images/arrow-double-right.png);
+        position: absolute;
+        left: 156px;
+        top: 16px;
+        background-repeat: no-repeat;
+}
+
+.sixth02 .sixth022:hover {
+    margin-left: 3px;
+}
+
+.finally {
+    position: relative;
+    border:1px solid black;
+    margin: auto;
+    margin-top: 29px;
+    height: 979px;
+    width: 1925px;
+    background: url(images/z.png);
+}
+
+.zgfinally {
+    margin: auto;
+    height: 979px;
+    width: 1925px;
+    background: rgba(62, 62, 62, 0.17 );
+}
+
+.finally .words {
+    position: absolute;   
+    left:544px;
+    top:228px;
+    width: 877px;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.finally .words .ww1 {
+    float:left;
+    width: 220px;
+    height: 79px;
+    background: url(images/CUTE\ useful.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.finally .words .ww2 {
+    float: left;
+    width: 388px;
+    height: 79px;
+    background: url(images/LAMY.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.finally .words .ww3 {
+    float: left;
+    width: 290px;
+    height: 79px;
+    background: url(images/GOOD\ SIMPLE.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
